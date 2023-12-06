@@ -52,17 +52,21 @@ ul{
 }
 
 .box button{
-    display: inline-block;
+    
+    display: flex;
     position: absolute;
     background-color: whitesmoke;
     padding: 10px;
     padding-left: 2%;
     padding-right: 2%;
-    
+    text-align: center;
     color: black;
     font: 12px 'FFDIN Medium',FFDIN,Arial,sans-serif;
     font-weight: bold;
+    height: 40px;
+
 }
+
 
 #banner1 button{
     top: 50%;
@@ -75,7 +79,7 @@ ul{
 
 #banner2 button{
     top: 65%;
-    right: 12%;
+    right: 10%;
 }
 
 #banner3{
@@ -83,6 +87,7 @@ ul{
 }
 
 #banner3 button{
+    
     top: 70%;
     right: 10%;
 }
