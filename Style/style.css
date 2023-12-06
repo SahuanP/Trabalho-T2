@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+
+#menuhero{
+    display: flex;
+    width: 960px;
+    
+    
+}
+.hero{
+    display: flex;
+    background-color: #212222;
+    height: 73px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;   
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    border: 1px red solid;
+    max-width: 960px;
+    margin: auto auto auto 50px;
+}
+
+#search{
+    border: 1px solid #929292;
+    background: none;
+    color: rgb(161, 161, 161);
+}
+
+#logoheader{
+    display: flex;
+    background-color: blanchedalmond;
+    margin: auto 0px auto 10px;
+}
+
+.box{
+    display: flex;
+    position: relative;
+}
+
+.box button{
+    display: inline-block;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    color: black;
+    font: 12px 'FFDIN Medium',FFDIN,Arial,sans-serif;
+    font-weight: bold;
+}
+
+#banner1 button{
+    top: 50%;
+    left: 10%;
+}
+
+#banner2{
+    margin-top: 35px;
+}
+
+#banner2 button{
+    top: 65%;
+    right: 12%;
+}
+
+#banner3{
+    margin-top: 35px;
+}
+
+#banner3 button{
+    top: 70%;
+    right: 10%;
+}
