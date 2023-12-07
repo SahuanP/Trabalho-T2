@@ -167,3 +167,140 @@
     display: block;
     color: white;
 } 
+
+
+.container-navegacao-paginas{
+    height: 45px;
+    margin-left: 80px;
+    display: flex;
+}
+.container-navegacao-paginas a {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.ul-navegacao-paginas {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+.li-navegacao-paginas a{
+    display: inline;
+    
+}
+
+.li-navegacao-paginas a::after {
+    content: ">";
+    margin-left: 17px;
+    margin-right: 17px;
+    color: #000;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.banner1-future{
+    padding: 36px 96px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-banner-future{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-banner-future{
+    width: 100%;
+}
+
+#text-banner1-future{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.content-colecao{
+    margin-top: 45px;
+    padding: 0px 32px;
+}
+
+.text-content-colecao{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content-colecao p{
+    font-size: x-large;
+}
+
+.grid-produtos{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid-item{
+    display: flex;
+    width: 22%;
+    padding: 11px;
+}
+
+.grid-item:hover{
+    border: 1px solid #000;
+}
+
+.produto-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-item{
+    width: 100%;
+}
+
+.item-nome{
+    text-align: center;
+    margin: 19px 0 7px;
+}
+
+.item-preco{
+    text-align: center;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+@media (min-width: 1110px) {
+
+    .banner1-future{    
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box-banner-future{    
+        display: flex;
+        position: relative;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .container-navegacao-paginas{
+        margin-left: 20px;
+    }
+}
